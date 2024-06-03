@@ -100,3 +100,27 @@ p {
   text-decoration: none;
   text-transform: capitalize;
 }
+.heading-text {
+  text-align: start;
+}
+.greeting {
+  padding-top: 60px;
+}
+@media (max-width: 600px) {
+  .frontpage-img {
+    display: none;
+  }
+  .project-section {
+    width: 100%;
+    text-align: center;
+  }
+  .heading-text {
+    text-align: center;
+  }
+  .navigator {
+    width: fit-content;
+  }
+  .heading {
+    font-size: 60px;
+  }
+}
